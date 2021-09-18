@@ -6,6 +6,10 @@ The purpose of this analysis was to assist our client, Maria, in fixing grades f
 
 ## Results
 
+[Link to PyCity Schools Challenge](https://github.com/SeanDraper/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
+
+The link above contains the code for the PyCity Schools Challenge.
+
 - How is the district summary affected?
 
 ![Original District Summary](Resources/original_district_summary.png)
@@ -36,7 +40,7 @@ When the ninth grade math and reading scores for Thomas High School are replaced
 
 - How does replacing the ninth-grade scores affect the following:
 
--- Math and reading scores by grade
+- - Math and reading scores by grade
 
 ![Original Math By Grade](Resources/original_math_by_grade.png)
 
@@ -58,7 +62,7 @@ The above image shows the new reading scores by grade with Thomas High School ni
 
 As with the math scores, the only difference with between the original and updated version is that 9th grade for Thomas High School is NaN.
 
--- Scores by school spending
+- - Scores by school spending
 
 ![Original Scores By Spending](Resources/original_scores_by_spending.png)
 
@@ -70,7 +74,7 @@ The above image shows the new scores by spending with the ninth grade scores for
 
 In order to show any change between the original and new scores by spending I had to show dataframes that had several decimal places showing. The formated dataframes that rounded and removed decimal places showed no change. The only spending bin that was changed was $630-644 because that was the bin that Thomas High School fell into. Each of the average and passing % scores were lower in the new version except for average reading score which was slightly higher.
 
--- Scores by school size
+- - Scores by school size
 
 ![Original Scores By Size](Resources/original_scores_by_size.png)
 
@@ -82,7 +86,7 @@ The above image shows the new scores by size with the ninth grade Thomas High Sc
 
 Once again we have to show the comparison between the original and new results without rounding and decimal point formatting or else the results would look the same. The only size that has different results is the medium (1000-2000) school size because that is the bin that Thomas High School falls into. Average reading score is slightly higher but every other result is slightly lower.
 
--- Scores by school type
+- - Scores by school type
 
 ![Orignal Scores By Type](Resources/original_scores_by_type.png)
 
