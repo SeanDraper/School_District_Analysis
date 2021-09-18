@@ -8,11 +8,11 @@ The purpose of this analysis was to assist our client, Maria, in fixing grades f
 
 - How is the district summary affected?
 
-![Original Disctrict Summary](Resources/original_district_summary.png)
+![Original District Summary](Resources/original_district_summary.png)
 
 The above image shows the original district summary with the dishonestly altered Thomas High School ninth grade scores.
 
-![New Disctrict Summary](Resources/new_district_summary.png)
+![New District Summary](Resources/new_district_summary.png)
 
 The above image shows the new district summary with the corrected grades for Thomas High School as NaNs.
 
