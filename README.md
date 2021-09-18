@@ -22,7 +22,7 @@ The above image shows the new district summary with the corrected grades for Tho
 
 The new analysis shows that there is a slight decrease in passing rate for reading, math, and overall when compared to the original analysis. This decrease ranges between .1 to .3%. The reason that the district analysis is effected so little is because of the sample size. We changed a small number of students (9th graders at Thomas High) to NaNs when compared to the thousands of students that are in the entire district.
 
-- How is the school summary affected?
+### How is the school summary affected?
 
 ![Original Per School Summary](Resources/original_per_school_summary.png)
 
@@ -34,13 +34,13 @@ The above image shows the new per school summary with the correct grades for Tho
 
 The only changes in the per school summary were for Thomas High School because those were the only records that were changed. The average reading score went up slightly but the average math along with the passing percentage for reading, math, and overall were slightly lower with the corrected grades.
 
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
 When the ninth grade math and reading scores for Thomas High School are replaced with NaNs the average math grades and passing percentage are lower in comparison to other schools. Average reading score went up slightly. The performance for other schools stays the same because their grades were not altered.
 
-- How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth-grade scores affect the following:
 
-- - Math and reading scores by grade
+- Math and reading scores by grade
 
 ![Original Math By Grade](Resources/original_math_by_grade.png)
 
@@ -62,7 +62,7 @@ The above image shows the new reading scores by grade with Thomas High School ni
 
 As with the math scores, the only difference with between the original and updated version is that 9th grade for Thomas High School is NaN.
 
-- - Scores by school spending
+- Scores by school spending
 
 ![Original Scores By Spending](Resources/original_scores_by_spending.png)
 
@@ -74,7 +74,7 @@ The above image shows the new scores by spending with the ninth grade scores for
 
 In order to show any change between the original and new scores by spending I had to show dataframes that had several decimal places showing. The formated dataframes that rounded and removed decimal places showed no change. The only spending bin that was changed was $630-644 because that was the bin that Thomas High School fell into. Each of the average and passing % scores were lower in the new version except for average reading score which was slightly higher.
 
-- - Scores by school size
+- Scores by school size
 
 ![Original Scores By Size](Resources/original_scores_by_size.png)
 
@@ -86,7 +86,7 @@ The above image shows the new scores by size with the ninth grade Thomas High Sc
 
 Once again we have to show the comparison between the original and new results without rounding and decimal point formatting or else the results would look the same. The only size that has different results is the medium (1000-2000) school size because that is the bin that Thomas High School falls into. Average reading score is slightly higher but every other result is slightly lower.
 
-- - Scores by school type
+- Scores by school type
 
 ![Orignal Scores By Type](Resources/original_scores_by_type.png)
 
